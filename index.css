@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #f4d04eff;
+}
+.card {
+  width: 24em;
+  height: 32em;
+  background-color: #fff;
+  padding: 6%;
+  border-radius: 5%;
+  border: 1px solid #111;
+  box-shadow: 10px 10px 10px 5px #111;
+}
+.card .image {
+  text-align: center;
+  border-radius: 5%;
+}
+.image img {
+  border-radius: 5%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin: 3% 0% 5% 0%;
+  align-items: start;
+  justify-content: center;
+}
+.text span,
+.text p,
+.text h1 {
+  margin: 1% 0%;
+}
+.text h1{
+    font-weight: 800;
+}
+.text p{
+    font-weight: 500;
+}
+.text .learning {
+  background-color: #f4d04eff;
+  font-weight: 800;
+  padding: 1% 2%;
+  border-radius: 3%;
+  border-radius: 10%;
+}
+.text .date{
+    font-size: 0.9em;
+}
+.text .contenu{
+  color: #6b6b6b;
+}
+.profil {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  gap: 1em;
+}
+.profil img {
+  width: 3em;
+  height: 3em;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 2%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
